@@ -8,7 +8,7 @@ import pyttsx3
 import simpleaudio as sa
 
 
-url = "https://streamlabs.com/widgets/chat-box/v1/3B42D72ED1F8E3C39A83"
+url = "streamlabs URL"
 resetComment = 30
 
 
@@ -21,7 +21,7 @@ engine.setProperty("rate", 150)
 
 voices = engine.getProperty('voices')
 
-engine.setProperty('voice', voices[2].id)  # this is female voice
+engine.setProperty('voice', voices[2].id)  # this is female voice in spanish in my system, change it depending on your installed voices. 
 
 
 
